@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title  %}booking{% endblock title %}
+{% block content %}
+<h2 class='text-center'>MAKE AN APPOINTMENT</h2>
+<hr>
+<div class="container w-50 text">
+   <form action="" method="post">
+    {{form.as_p}}
+    <button type="submit" class="btn btn-info">submit</button>
+   </form>    
+</div>
+{% endblock content %}
